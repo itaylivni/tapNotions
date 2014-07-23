@@ -38,7 +38,7 @@ def getdefs(word):
 	except:
 		None
 	worddef[0] = tdef
-	print "check 1"
+
 #######################
 ## Merriam Webster API
 	api_key = 'd6ed294b-9e3a-4897-8281-2c4c5ae8f2b1'
