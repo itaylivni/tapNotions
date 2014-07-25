@@ -49,5 +49,11 @@ void draw(){
 void mouseMoved(){
   nX = mouseX;
   nY = mouseY;  
+  String[] data = new String[4];
+  data[0] = "(";
+  data[1] = str(nX);
+  data[2] = str(nY);
+  data[3] = ")";
+  println(join(data));
 }
 
