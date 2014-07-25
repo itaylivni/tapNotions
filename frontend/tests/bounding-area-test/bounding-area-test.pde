@@ -4,7 +4,7 @@
  * cursor is NOT on the area
  */
 
-int width = 400;
+int width = 800;
 int[] bgColor = {255,255,255};
 int[] textColor = {0,0,0};
 
@@ -22,7 +22,7 @@ void draw(){
      fill(0);
      textSize(120);
 
-     text("TEST ING",50,100);
+     text("TESTING",50,100);
 }
 
 // Track mouse movements

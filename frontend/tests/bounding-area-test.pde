@@ -4,31 +4,70 @@
  * cursor is NOT on the area
  */
 
+// Global variables
+
+//Text
+String message = "e";
+
+//Circle
+float radius = 50.0;
+int X, Y;
+int nX, nY;
+int delay = 1;
+
 int width = 400;
 int[] bgColor = {255,255,255};
 int[] textColor = {0,0,0};
 
 void setup(){
      size(width,400);
+     background(255);
      strokeWeight(1);
-     frameRate(32);
+     frameRate(24);
+
+     X = width / 2;
+     Y = width / 2;
+     nX = X;
+     nY = Y;  
 }
 
 void draw(){
-     // Fill the background
-     background(255);
 
+     if (mousePressed == true) {
+          // // Draw circle pointer
+          radius = radius + sin( frameCount / 4 );
+
+          // // Track circle to new destination
+          X+=(nX-X)/delay;
+          Y+=(nY-Y)/delay;
+
+          // // Set fill-color to blue
+          fill( 0, 121, 184 );
+
+          // // Set stroke-color white
+          stroke(255); 
+
+          // // Draw circle
+          ellipse(mouseX, mouseY, 10, 10);
+
+          // strokeWeight(10);
+          // stroke(0, 121, 184);
+          // line(mouseX, mouseY, pmouseX, pmouseY);
+     }
      // Draw text!!
-     fill(0);
-     textSize(80);
+     fill(0, 20);
+     textSize(250);
 
-     text("e",50,50);
+     text(message,50,200);
+
 }
 
 // Track mouse movements
 void mouseMoved(){
      loadPixels();
-     
+
+     nX = mouseX;
+     nY = mouseY;  
      // Get the position of the pixel
      int pos = mouseX + (mouseY*width);
      color pix = pixels[pos];
@@ -44,6 +83,15 @@ void mouseMoved(){
      else {
 	 println("Not on 'e' :(");
      }
+
+     // nX = mouseX;
+     // nY = mouseY;  
+     // String[] data = new String[4];
+     // data[0] = "(";
+     // data[1] = str(nX);
+     // data[2] = str(nY);
+     // data[3] = ")";
+     // println(join(data));
 }
 // Compares two color arrays (int[3])
 bool isOnText(int[] color){
