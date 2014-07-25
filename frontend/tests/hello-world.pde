@@ -15,7 +15,7 @@ int delay = 16;
 void setup(){
   size( 400, 400 );
   strokeWeight( 1 );
-  frameRate( 24 );
+  frameRate( 32 );
   X = width / 2;
   Y = width / 2;
   nX = X;
