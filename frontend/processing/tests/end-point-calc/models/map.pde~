@@ -1,0 +1,47 @@
+// The Map class can find the start and end points of a printed character
+// The rules for finding the end points must be defined by us. The example uses
+// lowercase "e"
+class Map {
+    color c;
+    int[] start = new int[4]; // Boundaries defining the start region
+    int[] end = new int[4]; // Boundaries defining the end region
+    int[] regions; // An array of regions that the cursor/finger must pass through
+    // This allows us to track the user's progress
+    int[] px; // Array of pixels on the canvas
+    int curPx = 0; // The current pixel position
+    int width; // Display width
+    int[] letterPos = new int[2]; // x,y position of the letter
+    int letterWidth = 0;
+    int letterHeight = 0;
+    
+    // Getters
+    bool[] match(){
+	bool[] out = new int[8];
+	out[0] = c == pixels[curPx-width]; // Top
+	out[1] = c == pixels[curPx-width-1]; // Top-left
+	out[2] = c == pixels[curPx-1]; // Left
+	out[3] = c == pixels[curPx-1+width]; // Bottom-left
+	out[4] = c == pixels[curPx+width]; // Bottom;
+	out[5] = c == pixels[curPx+width+1]; // Bottom-right
+	out[6] = c == pixels[curPx+1]; // Right
+	out[7] = c == pixels[curPx+1-width]; // Top-right
+	return out;
+    }
+    int[] getPixels(){
+	return px;
+    }
+    int getWidth(){
+	return width;
+    }
+
+    // Setters
+    void setColor(color col){
+	c = col;
+    }
+    void setPixels(int[] pixelArray){
+	px = pixelArray;
+    }
+    void setWidth(int w){
+	width = w;
+    }
+}

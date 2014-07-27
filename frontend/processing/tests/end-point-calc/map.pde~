@@ -1,0 +1,22 @@
+// The Map class can find the start and end points of a printed character
+// The rules for finding the end points must be defined by us. The example uses
+// lowercase "e"
+class Map {
+    color c;
+    int[] start = new int[4]; // Boundaries defining the start region
+    int[] end = new int[4]; // Boundaries defining the end region
+    int[] regions; // An array of regions that the cursor/finger must pass through
+    // This allows us to track the user's progress
+    int[] px; // Array of pixels on the canvas
+    
+    // Getters
+    int[] getSurround(){
+	// Returns the surrounding pixels matching the color c;
+	return 0;
+    }
+
+    // Setters
+    void setColor(color col){
+	c = col;
+    }
+}
