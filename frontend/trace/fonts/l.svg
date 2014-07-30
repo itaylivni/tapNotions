@@ -1,0 +1,79 @@
+<!--
+Unicode requested: 108 (decimal: 108 hex: 0x6c)
+Glyph index for unicode: 79
+Load Glyph into Face's glyph slot. error code: 0
+Glyph Name: l
+Glyph Width: 1 Height: 999 Hor. Advance: -1226395028 Vert. Advance: 1
+Num points: 14
+Num contours: 1
+Contour endpoint index values: 13
+-->
+
+<svg width='3645px' height='1183px' xmlns='http://www.w3.org/2000/svg' version='1.1'>
+
+ <!-- make sure glyph is visible within svg window -->
+ <g fill-rule='nonzero'  transform='translate(100 963)'><!-- do outline -->
+
+<!--
+new contour starting. startpt index, endpt index:0,13
+number of points in this contour: 14
+moving to first pt 280,10
+listing pts: [this pt index][isctrl] <next pt index><isctrl> [x,y] <nx,ny>
+ [0][0] <1><1> <<2>><<1>> [280,10] <215,9> <<134,-17>>
+ two ctl pts coming. adding point halfway between 1 and 2: reseting nnx and nny to halfway pt bezier to 174,-4 ctlx, ctly: 215,9
+ [1][1] <2><1> <<3>><<1>> [215,9] <134,-17> <<87,-64>>
+ two adjacent ctl pts. adding point halfway between 1 and 2: reseting x and y to  [174,-4]
+ two ctl pts coming. adding point halfway between 2 and 3: reseting nnx and nny to halfway pt bezier to 110,-40 ctlx, ctly: 134,-17
+ [2][1] <3><1> <<4>><<1>> [134,-17] <87,-64> <<70,-131>>
+ two adjacent ctl pts. adding point halfway between 2 and 3: reseting x and y to  [110,-40]
+ two ctl pts coming. adding point halfway between 3 and 4: reseting nnx and nny to halfway pt bezier to 78,-97 ctlx, ctly: 87,-64
+ [3][1] <4><1> <<5>><<0>> [87,-64] <70,-131> <<70,-173>>
+ two adjacent ctl pts. adding point halfway between 3 and 4: reseting x and y to  [78,-97]
+ bezier to 70,-173 ctlx, ctly: 70,-131
+ [4][1] <5><0> <<6>><<0>> [70,-131] <70,-173> <<70,-752>>
+ this is ctrl pt. skipping to 70,-173
+ [5][0] <6><0> <<7>><<0>> [70,-173] <70,-752> <<219,-776>>
+ line to 70,-752
+ [6][0] <7><0> <<8>><<0>> [70,-752] <219,-776> <<219,-203>>
+ line to 219,-776
+ [7][0] <8><0> <<9>><<1>> [219,-776] <219,-203> <<219,-183>>
+ line to 219,-203
+ [8][0] <9><1> <<10>><<1>> [219,-203] <219,-183> <<225,-151>>
+ two ctl pts coming. adding point halfway between 9 and 10: reseting nnx and nny to halfway pt bezier to 222,-167 ctlx, ctly: 219,-183
+ [9][1] <10><1> <<11>><<1>> [219,-183] <225,-151> <<242,-129>>
+ two adjacent ctl pts. adding point halfway between 9 and 10: reseting x and y to  [222,-167]
+ two ctl pts coming. adding point halfway between 10 and 11: reseting nnx and nny to halfway pt bezier to 233,-140 ctlx, ctly: 225,-151
+ [10][1] <11><1> <<12>><<1>> [225,-151] <242,-129> <<274,-115>>
+ two adjacent ctl pts. adding point halfway between 10 and 11: reseting x and y to  [233,-140]
+ two ctl pts coming. adding point halfway between 11 and 12: reseting nnx and nny to halfway pt bezier to 258,-122 ctlx, ctly: 242,-129
+ [11][1] <12><1> <<13>><<0>> [242,-129] <274,-115> <<301,-113>>
+ two adjacent ctl pts. adding point halfway between 11 and 12: reseting x and y to  [258,-122]
+ bezier to 301,-113 ctlx, ctly: 274,-115
+ [12][1] <13><0> <<0>><<0>> [274,-115] <301,-113> <<280,10>>
+ this is ctrl pt. skipping to 301,-113
+ [13][0] <0><0> <<1>><<1>> [301,-113] <280,10> <<215,9>>
+ line to 280,10
+ 
+-->
+
+
+  <!-- draw actual outline using lines and Bezier curves-->
+  <path fill='black' stroke='black' fill-opacity='0.45'  stroke-width='2'  d='
+ M 280,10
+ Q 215,9 174,-4
+ Q 134,-17 110,-40
+ Q 87,-64 78,-97
+ Q 70,-131 70,-173
+ L 70,-752
+ L 219,-776
+ L 219,-203
+ Q 219,-183 222,-167
+ Q 225,-151 233,-140
+ Q 242,-129 258,-122
+ Q 274,-115 301,-113
+ L 280,10
+ Z
+
+  '/>
+ </g>
+</svg>
