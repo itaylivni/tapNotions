@@ -5,8 +5,8 @@ function Letter(parent){
     var style = {
 	height        : 0,
 	scale         : 0,
-	letterSpacing : 7,
-	fontSize      : 7, // em
+	letterSpacing : 15,
+	fontSize      : 10, // em
 	defaultDim    : {}
     };
     var special = {
