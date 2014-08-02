@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Trace</title>
+  <!-- SCRIPTS -->
+  <script src="../scripts/jquery.min.js"></script>
+  <script src="models/d3.v3.min.js"></script>
+  <script type="text/javascript" src="../scripts/Snap.svg-0.3.0/dist/snap.svg.js"></script>
+  <script type="text/javascript" src="../scripts/pixelate.min.js"></script>
+
+  <!-- CONTROLLERS -->
+  <script type="text/javascript" src="./controllers/main.js"></script>
+
+  <!-- SERVICES -->
+  <script type="text/javascript" src="./services/Letter.js"></script>
+
+  <!-- STYLESHEETS -->
+  <link rel="stylesheet" type="text/css" href="trace.css">
+</head>
+<body style="background-color:#555">
+  <canvas id="bg-image"></canvas>
+  <!-- MAIN VIEW -->
+  <svg id="screen" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="email_text">
+      
+    </g>
+  </svg>
+  <canvas id="canvas"></canvas>
+  <!-- Element is used to normalize text -->
+  <div style="position:absolute;left:-10000px;top:0;font-size:1em" id="normal_text">
+    e
+  </div>
+</body>
+</html>

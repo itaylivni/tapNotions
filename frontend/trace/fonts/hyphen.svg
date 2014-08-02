@@ -1,0 +1,45 @@
+<!--
+Unicode requested: 45 (decimal: 45 hex: 0x2d)
+Glyph index for unicode: 16
+Load Glyph into Face's glyph slot. error code: 0
+Glyph Name: hyphen
+Glyph Width: 1 Height: 999 Hor. Advance: -1226497428 Vert. Advance: 1
+Num points: 4
+Num contours: 1
+Contour endpoint index values: 3
+-->
+
+<svg width='3645px' height='1183px' xmlns='http://www.w3.org/2000/svg' version='1.1'>
+
+ <!-- make sure glyph is visible within svg window -->
+ <g fill-rule='nonzero'  transform='translate(100 879)'><!-- do outline -->
+
+<!--
+new contour starting. startpt index, endpt index:0,3
+number of points in this contour: 4
+moving to first pt 25,-366
+listing pts: [this pt index][isctrl] <next pt index><isctrl> [x,y] <nx,ny>
+ [0][0] <1><0> <<2>><<0>> [25,-366] <315,-366> <<315,-231>>
+ line to 315,-366
+ [1][0] <2><0> <<3>><<0>> [315,-366] <315,-231> <<25,-231>>
+ line to 315,-231
+ [2][0] <3><0> <<0>><<0>> [315,-231] <25,-231> <<25,-366>>
+ line to 25,-231
+ [3][0] <0><0> <<1>><<0>> [25,-231] <25,-366> <<315,-366>>
+ line to 25,-366
+ 
+-->
+
+
+  <!-- draw actual outline using lines and Bezier curves-->
+  <path fill='black' stroke='black' fill-opacity='0.45'  stroke-width='2'  d='
+ M 25,-366
+ L 315,-366
+ L 315,-231
+ L 25,-231
+ L 25,-366
+ Z
+
+  '/>
+ </g>
+</svg>

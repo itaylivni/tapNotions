@@ -1,0 +1,200 @@
+<!--
+Unicode requested: 97 (decimal: 97 hex: 0x61)
+Glyph index for unicode: 68
+Load Glyph into Face's glyph slot. error code: 0
+Glyph Name: a
+Glyph Width: 1 Height: 999 Hor. Advance: -1226030484 Vert. Advance: 1
+Num points: 50
+Num contours: 2
+Contour endpoint index values: 14 49
+-->
+
+<svg width='3645px' height='1183px' xmlns='http://www.w3.org/2000/svg' version='1.1'>
+
+ <!-- make sure glyph is visible within svg window -->
+ <g fill-rule='nonzero'  transform='translate(100 845)'><!-- do outline -->
+
+<!--
+new contour starting. startpt index, endpt index:0,14
+number of points in this contour: 15
+moving to first pt 271,-104
+listing pts: [this pt index][isctrl] <next pt index><isctrl> [x,y] <nx,ny>
+ [0][0] <1><1> <<2>><<1>> [271,-104] <293,-104> <<333,-106>>
+ two ctl pts coming. adding point halfway between 1 and 2: reseting nnx and nny to halfway pt bezier to 313,-105 ctlx, ctly: 293,-104
+ [1][1] <2><1> <<3>><<0>> [293,-104] <333,-106> <<345,-108>>
+ two adjacent ctl pts. adding point halfway between 1 and 2: reseting x and y to  [313,-105]
+ bezier to 345,-108 ctlx, ctly: 333,-106
+ [2][1] <3><0> <<4>><<0>> [333,-106] <345,-108> <<345,-221>>
+ this is ctrl pt. skipping to 345,-108
+ [3][0] <4><0> <<5>><<1>> [345,-108] <345,-221> <<336,-223>>
+ line to 345,-221
+ [4][0] <5><1> <<6>><<1>> [345,-221] <336,-223> <<300,-227>>
+ two ctl pts coming. adding point halfway between 5 and 6: reseting nnx and nny to halfway pt bezier to 318,-225 ctlx, ctly: 336,-223
+ [5][1] <6><1> <<7>><<0>> [336,-223] <300,-227> <<285,-227>>
+ two adjacent ctl pts. adding point halfway between 5 and 6: reseting x and y to  [318,-225]
+ bezier to 285,-227 ctlx, ctly: 300,-227
+ [6][1] <7><0> <<8>><<1>> [300,-227] <285,-227> <<264,-227>>
+ this is ctrl pt. skipping to 285,-227
+ [7][0] <8><1> <<9>><<1>> [285,-227] <264,-227> <<227,-222>>
+ two ctl pts coming. adding point halfway between 8 and 9: reseting nnx and nny to halfway pt bezier to 245,-224 ctlx, ctly: 264,-227
+ [8][1] <9><1> <<10>><<1>> [264,-227] <227,-222> <<199,-208>>
+ two adjacent ctl pts. adding point halfway between 8 and 9: reseting x and y to  [245,-224]
+ two ctl pts coming. adding point halfway between 9 and 10: reseting nnx and nny to halfway pt bezier to 213,-215 ctlx, ctly: 227,-222
+ [9][1] <10><1> <<11>><<1>> [227,-222] <199,-208> <<183,-184>>
+ two adjacent ctl pts. adding point halfway between 9 and 10: reseting x and y to  [213,-215]
+ two ctl pts coming. adding point halfway between 10 and 11: reseting nnx and nny to halfway pt bezier to 191,-196 ctlx, ctly: 199,-208
+ [10][1] <11><1> <<12>><<0>> [199,-208] <183,-184> <<183,-166>>
+ two adjacent ctl pts. adding point halfway between 10 and 11: reseting x and y to  [191,-196]
+ bezier to 183,-166 ctlx, ctly: 183,-184
+ [11][1] <12><0> <<13>><<1>> [183,-184] <183,-166> <<183,-131>>
+ this is ctrl pt. skipping to 183,-166
+ [12][0] <13><1> <<14>><<1>> [183,-166] <183,-131> <<230,-104>>
+ two ctl pts coming. adding point halfway between 13 and 14: reseting nnx and nny to halfway pt bezier to 206,-117 ctlx, ctly: 183,-131
+ [13][1] <14><1> <<0>><<0>> [183,-131] <230,-104> <<271,-104>>
+ two adjacent ctl pts. adding point halfway between 13 and 14: reseting x and y to  [206,-117]
+ bezier to 271,-104 ctlx, ctly: 230,-104
+ [14][1] <0><0> <<1>><<1>> [230,-104] <271,-104> <<293,-104>>
+ this is ctrl pt. skipping to 271,-104
+new contour starting. startpt index, endpt index:15,49
+number of points in this contour: 35
+moving to first pt 259,-540
+listing pts: [this pt index][isctrl] <next pt index><isctrl> [x,y] <nx,ny>
+ [15][0] <16><1> <<17>><<1>> [259,-540] <325,-540> <<413,-510>>
+ two ctl pts coming. adding point halfway between 16 and 17: reseting nnx and nny to halfway pt bezier to 369,-525 ctlx, ctly: 325,-540
+ [16][1] <17><1> <<18>><<1>> [325,-540] <413,-510> <<466,-454>>
+ two adjacent ctl pts. adding point halfway between 16 and 17: reseting x and y to  [369,-525]
+ two ctl pts coming. adding point halfway between 17 and 18: reseting nnx and nny to halfway pt bezier to 439,-482 ctlx, ctly: 413,-510
+ [17][1] <18><1> <<19>><<1>> [413,-510] <466,-454> <<488,-374>>
+ two adjacent ctl pts. adding point halfway between 17 and 18: reseting x and y to  [439,-482]
+ two ctl pts coming. adding point halfway between 18 and 19: reseting nnx and nny to halfway pt bezier to 477,-414 ctlx, ctly: 466,-454
+ [18][1] <19><1> <<20>><<0>> [466,-454] <488,-374> <<488,-325>>
+ two adjacent ctl pts. adding point halfway between 18 and 19: reseting x and y to  [477,-414]
+ bezier to 488,-325 ctlx, ctly: 488,-374
+ [19][1] <20><0> <<21>><<0>> [488,-374] <488,-325> <<488,-15>>
+ this is ctrl pt. skipping to 488,-325
+ [20][0] <21><0> <<22>><<1>> [488,-325] <488,-15> <<456,-8>>
+ line to 488,-15
+ [21][0] <22><1> <<23>><<1>> [488,-15] <456,-8> <<342,11>>
+ two ctl pts coming. adding point halfway between 22 and 23: reseting nnx and nny to halfway pt bezier to 399,1 ctlx, ctly: 456,-8
+ [22][1] <23><1> <<24>><<0>> [456,-8] <342,11> <<261,11>>
+ two adjacent ctl pts. adding point halfway between 22 and 23: reseting x and y to  [399,1]
+ bezier to 261,11 ctlx, ctly: 342,11
+ [23][1] <24><0> <<25>><<1>> [342,11] <261,11> <<210,11>>
+ this is ctrl pt. skipping to 261,11
+ [24][0] <25><1> <<26>><<1>> [261,11] <210,11> <<127,-7>>
+ two ctl pts coming. adding point halfway between 25 and 26: reseting nnx and nny to halfway pt bezier to 168,2 ctlx, ctly: 210,11
+ [25][1] <26><1> <<27>><<1>> [210,11] <127,-7> <<67,-48>>
+ two adjacent ctl pts. adding point halfway between 25 and 26: reseting x and y to  [168,2]
+ two ctl pts coming. adding point halfway between 26 and 27: reseting nnx and nny to halfway pt bezier to 97,-27 ctlx, ctly: 127,-7
+ [26][1] <27><1> <<28>><<1>> [127,-7] <67,-48> <<35,-114>>
+ two adjacent ctl pts. adding point halfway between 26 and 27: reseting x and y to  [97,-27]
+ two ctl pts coming. adding point halfway between 27 and 28: reseting nnx and nny to halfway pt bezier to 51,-81 ctlx, ctly: 67,-48
+ [27][1] <28><1> <<29>><<0>> [67,-48] <35,-114> <<35,-162>>
+ two adjacent ctl pts. adding point halfway between 27 and 28: reseting x and y to  [51,-81]
+ bezier to 35,-162 ctlx, ctly: 35,-114
+ [28][1] <29><0> <<30>><<1>> [35,-114] <35,-162> <<35,-208>>
+ this is ctrl pt. skipping to 35,-162
+ [29][0] <30><1> <<31>><<1>> [35,-162] <35,-208> <<72,-272>>
+ two ctl pts coming. adding point halfway between 30 and 31: reseting nnx and nny to halfway pt bezier to 53,-240 ctlx, ctly: 35,-208
+ [30][1] <31><1> <<32>><<1>> [35,-208] <72,-272> <<134,-310>>
+ two adjacent ctl pts. adding point halfway between 30 and 31: reseting x and y to  [53,-240]
+ two ctl pts coming. adding point halfway between 31 and 32: reseting nnx and nny to halfway pt bezier to 103,-291 ctlx, ctly: 72,-272
+ [31][1] <32><1> <<33>><<1>> [72,-272] <134,-310> <<214,-327>>
+ two adjacent ctl pts. adding point halfway between 31 and 32: reseting x and y to  [103,-291]
+ two ctl pts coming. adding point halfway between 32 and 33: reseting nnx and nny to halfway pt bezier to 174,-318 ctlx, ctly: 134,-310
+ [32][1] <33><1> <<34>><<0>> [134,-310] <214,-327> <<257,-327>>
+ two adjacent ctl pts. adding point halfway between 32 and 33: reseting x and y to  [174,-318]
+ bezier to 257,-327 ctlx, ctly: 214,-327
+ [33][1] <34><0> <<35>><<1>> [214,-327] <257,-327> <<286,-327>>
+ this is ctrl pt. skipping to 257,-327
+ [34][0] <35><1> <<36>><<1>> [257,-327] <286,-327> <<331,-322>>
+ two ctl pts coming. adding point halfway between 35 and 36: reseting nnx and nny to halfway pt bezier to 308,-324 ctlx, ctly: 286,-327
+ [35][1] <36><1> <<37>><<0>> [286,-327] <331,-322> <<345,-318>>
+ two adjacent ctl pts. adding point halfway between 35 and 36: reseting x and y to  [308,-324]
+ bezier to 345,-318 ctlx, ctly: 331,-322
+ [36][1] <37><0> <<38>><<0>> [331,-322] <345,-318> <<345,-332>>
+ this is ctrl pt. skipping to 345,-318
+ [37][0] <38><0> <<39>><<1>> [345,-318] <345,-332> <<345,-370>>
+ line to 345,-332
+ [38][0] <39><1> <<40>><<1>> [345,-332] <345,-370> <<299,-416>>
+ two ctl pts coming. adding point halfway between 39 and 40: reseting nnx and nny to halfway pt bezier to 322,-393 ctlx, ctly: 345,-370
+ [39][1] <40><1> <<41>><<0>> [345,-370] <299,-416> <<242,-416>>
+ two adjacent ctl pts. adding point halfway between 39 and 40: reseting x and y to  [322,-393]
+ bezier to 242,-416 ctlx, ctly: 299,-416
+ [40][1] <41><0> <<42>><<1>> [299,-416] <242,-416> <<204,-416>>
+ this is ctrl pt. skipping to 242,-416
+ [41][0] <42><1> <<43>><<1>> [242,-416] <204,-416> <<130,-405>>
+ two ctl pts coming. adding point halfway between 42 and 43: reseting nnx and nny to halfway pt bezier to 167,-410 ctlx, ctly: 204,-416
+ [42][1] <43><1> <<44>><<0>> [204,-416] <130,-405> <<103,-395>>
+ two adjacent ctl pts. adding point halfway between 42 and 43: reseting x and y to  [167,-410]
+ bezier to 103,-395 ctlx, ctly: 130,-405
+ [43][1] <44><0> <<45>><<0>> [130,-405] <103,-395> <<84,-515>>
+ this is ctrl pt. skipping to 103,-395
+ [44][0] <45><0> <<46>><<1>> [103,-395] <84,-515> <<97,-519>>
+ line to 84,-515
+ [45][0] <46><1> <<47>><<1>> [84,-515] <97,-519> <<136,-528>>
+ two ctl pts coming. adding point halfway between 46 and 47: reseting nnx and nny to halfway pt bezier to 116,-523 ctlx, ctly: 97,-519
+ [46][1] <47><1> <<48>><<1>> [97,-519] <136,-528> <<182,-535>>
+ two adjacent ctl pts. adding point halfway between 46 and 47: reseting x and y to  [116,-523]
+ two ctl pts coming. adding point halfway between 47 and 48: reseting nnx and nny to halfway pt bezier to 159,-531 ctlx, ctly: 136,-528
+ [47][1] <48><1> <<49>><<1>> [136,-528] <182,-535> <<233,-540>>
+ two adjacent ctl pts. adding point halfway between 47 and 48: reseting x and y to  [159,-531]
+ two ctl pts coming. adding point halfway between 48 and 49: reseting nnx and nny to halfway pt bezier to 207,-537 ctlx, ctly: 182,-535
+ [48][1] <49><1> <<15>><<0>> [182,-535] <233,-540> <<259,-540>>
+ two adjacent ctl pts. adding point halfway between 48 and 49: reseting x and y to  [207,-537]
+ bezier to 259,-540 ctlx, ctly: 233,-540
+ [49][1] <15><0> <<16>><<1>> [233,-540] <259,-540> <<325,-540>>
+ this is ctrl pt. skipping to 259,-540
+ 
+-->
+
+
+  <!-- draw actual outline using lines and Bezier curves-->
+  <path fill='black' stroke='black' fill-opacity='0.45'  stroke-width='2'  d='
+ M 271,-104
+ Q 293,-104 313,-105
+ Q 333,-106 345,-108
+ L 345,-221
+ Q 336,-223 318,-225
+ Q 300,-227 285,-227
+ Q 264,-227 245,-224
+ Q 227,-222 213,-215
+ Q 199,-208 191,-196
+ Q 183,-184 183,-166
+ Q 183,-131 206,-117
+ Q 230,-104 271,-104
+ Z
+
+ M 259,-540
+ Q 325,-540 369,-525
+ Q 413,-510 439,-482
+ Q 466,-454 477,-414
+ Q 488,-374 488,-325
+ L 488,-15
+ Q 456,-8 399,1
+ Q 342,11 261,11
+ Q 210,11 168,2
+ Q 127,-7 97,-27
+ Q 67,-48 51,-81
+ Q 35,-114 35,-162
+ Q 35,-208 53,-240
+ Q 72,-272 103,-291
+ Q 134,-310 174,-318
+ Q 214,-327 257,-327
+ Q 286,-327 308,-324
+ Q 331,-322 345,-318
+ L 345,-332
+ Q 345,-370 322,-393
+ Q 299,-416 242,-416
+ Q 204,-416 167,-410
+ Q 130,-405 103,-395
+ L 84,-515
+ Q 97,-519 116,-523
+ Q 136,-528 159,-531
+ Q 182,-535 207,-537
+ Q 233,-540 259,-540
+ Z
+
+  '/>
+ </g>
+</svg>
