@@ -28,10 +28,6 @@ $(document).ready(function(){
     // Default view values
     var textSize = 4; // Em
 
-    // Pixelate image
-    var percentPixelated = 0;
-    $("#bg_image").pixelate({value:0});
-
     // Init
     var s = Snap("#screen");
     var email = new Letter(Snap("#email_text")).loadText("e-mail");
@@ -93,6 +89,7 @@ $(document).ready(function(){
 	
 	// Mouseover on e
 	var oldx, oldy;
+	var entx, enty;
 	$("#email_text g:first-child > path").on("mouseout",function(){
 	    var self = $(this);
 	    self.attr({
@@ -109,22 +106,22 @@ $(document).ready(function(){
 	    "mouseover" : function(e){
 		if ( e.target.id == "test" ){
 		    $(e.target).attr("stroke","#000");
-		    oldx = e.clientX-epos.left;
-		    oldy = e.clientY-epos.top;		    
+		    oldx = entx = e.clientX-epos.left;
+		    oldy = enty = e.clientY-epos.top;		    
 		}
 	    },
 	    "mousemove" : function(e){
 		if ( on == false ){
 		    if ( e.target.id == "test" ){
-			var xc = e.clientX-epos.left;
-			var yc = e.clientY-epos.top;
-			trace.beginPath();
-			trace.fillStyle="#0f0";
-			trace.arc(xc,yc,5,0,Math.PI*2,true);
-			trace.fill();
-			trace.closePath();
-			oldx = xc;
-			oldy = yc;
+			    var xc = e.clientX-epos.left;
+			    var yc = e.clientY-epos.top;
+			    trace.beginPath();
+			    trace.fillStyle="#0f0";
+			    trace.arc(xc,yc,5,0,Math.PI*2,true);
+			    trace.fill();
+			    trace.closePath();
+			    oldx = xc;
+			    oldy = yc;
 		    }
 		    else
 			var color = "#888";
@@ -184,6 +181,7 @@ function particle(e,color) {
 	.attr("r", 1e-6)
 	.style("stroke", color ? color : d3.hsl((i = (i + 1) % 360), 1, .5))
 	.style("stroke-opacity", 1)
+	.style("stroke-width","2")
 	.style("fill","transparent")
     .transition()
       .duration(2000)
