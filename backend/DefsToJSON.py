@@ -2,7 +2,7 @@ from nltk.corpus import wordnet
 import nltk
 import urllib
 from urllib import urlopen
-from weboscrape import webodef
+#from weboscrape import webodef
 from bs4 import BeautifulSoup
 import wikipedia
 import sys
@@ -15,11 +15,11 @@ import json
 ## 3 - OED
 
 def getdefs(word):
-	word = word.lower()
+	word = word.lower().rstrip()
 	worddef = {}
 	worddef['word'] = word
 
-################3##
+###################
 ## Webopedia scrape
 	tdef = ''
 	url = "http://www.webopedia.com/TERM/D/" + word + ".html"
@@ -37,7 +37,7 @@ def getdefs(word):
 					None
 	except:
 		None
-	worddef[0] = tdef
+	worddef[0] = tdef.replace(" .",".").replace(" ,",",")
 
 #######################
 ## Merriam Webster API
@@ -132,19 +132,15 @@ def getdefs(word):
 	return worddef
 
 alldefs = []
-terms = open('techterms.txt','r').readlines()
+terms = open('data/techterms.txt','r').readlines()
 for line in terms:
-		print line
-		alldefs.append(json.dumps(getdefs(line), sort_keys=True, indent=4))
+        print line
+        alldefs.append(getdefs(line))
 
 with open('alldefs.json','w') as outfile:
 	json.dump(alldefs, outfile)
-
 
 #alldefsout.close()
 
 if '__name__' == '__main__':
 	main()
-
-
-
